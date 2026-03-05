@@ -1,0 +1,5 @@
+{
+  "name": "HIL Security Quiz",
+  "description": "A real-time multiplayer quiz application with host and player modes, featuring live leaderboards and timed scoring.",
+  "requestFramePermissions": []
+}
