@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useSocket } from "@/context/SocketContext";
-import { Button, Card } from "@/components/ui";
+import { Button } from "@/components/ui";
 import { useLocation, useParams } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 import { CheckCircle, XCircle, Clock } from "lucide-react";

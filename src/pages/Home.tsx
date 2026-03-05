@@ -1,6 +1,5 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button, Card } from "@/components/ui";
+import { Button } from "@/components/ui";
 import { motion } from "motion/react";
 
 export default function Home() {

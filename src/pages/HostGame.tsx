@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { useSocket } from "@/context/SocketContext";
 import { useParams } from "react-router-dom";
 import { QRCodeSVG } from "qrcode.react";
-import { Button, Card } from "@/components/ui";
-import { Users, Play, ArrowRight, BarChart2 } from "lucide-react";
+import { Button } from "@/components/ui";
+import { Users, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 
 export default function HostGame() {

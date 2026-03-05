@@ -1,5 +1,4 @@
 import { useState, useRef, ChangeEvent } from "react";
-import { nanoid } from "nanoid";
 import { Button, Input, Card } from "@/components/ui";
 import { useNavigate } from "react-router-dom";
 import { Plus, Trash, Save, Upload, HelpCircle, X } from "lucide-react";
@@ -131,7 +130,7 @@ export default function HostCreate() {
     });
 
     if (response.ok) {
-      const data = await response.json();
+      await response.json();
       navigate('/host');
     } else {
       alert("Failed to save quiz");
